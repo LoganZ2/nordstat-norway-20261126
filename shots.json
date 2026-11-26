@@ -1,0 +1,6 @@
+[
+  { "file": "1-overview.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-economy-calculator.jpg", "path": "#/economy", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-demographics-regions.jpg", "path": "#/demographics", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "4-mobile-overview.jpg", "path": "#/", "viewport": { "width": 390, "height": 844 } }
+]

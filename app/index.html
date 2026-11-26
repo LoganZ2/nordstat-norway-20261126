@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NORDSTAT — National Statistical Registry of Norway</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/layout.css">
+</head>
+<body>
+  <a class="skip-link" href="#app-root">Skip to statistical content</a>
+
+  <header class="masthead" role="banner">
+    <div class="masthead-bar">
+      <div class="shell masthead-bar-inner">
+        <span class="edition-tag">KINGDOM OF NORWAY · OFFICIAL PUBLIC INDICATORS</span>
+        <span class="edition-meta">Series verified through FY 2025 / Q4 · All figures cite primary table &amp; period</span>
+      </div>
+    </div>
+
+    <div class="shell masthead-main">
+      <a class="brand" href="#/" aria-label="NORDSTAT Home">
+        <svg class="brand-crest" viewBox="0 0 36 36" width="34" height="34" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="33" height="33" rx="3" fill="#12324B"/>
+          <rect x="7" y="21" width="4.5" height="8" rx="1" fill="#E8E4D9"/>
+          <rect x="13.5" y="15" width="4.5" height="14" rx="1" fill="#E8E4D9"/>
+          <rect x="20" y="10" width="4.5" height="19" rx="1" fill="#E8E4D9"/>
+          <path d="M7 13.5 L15.5 9.5 L22.2 12 L29 7" fill="none" stroke="#E06D5E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="29" cy="7" r="2.2" fill="#E06D5E"/>
+        </svg>
+        <span class="brand-copy">
+          <span class="brand-name">NORDSTAT</span>
+          <span class="brand-sub">National Statistical Registry of Norway</span>
+        </span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary sections">
+        <a class="nav-link" data-route="overview" href="#/">Overview</a>
+        <a class="nav-link" data-route="economy" href="#/economy">Economy &amp; Prices</a>
+        <a class="nav-link" data-route="demographics" href="#/demographics">Population &amp; Atlas</a>
+        <a class="nav-link" data-route="tables" href="#/tables">Data Explorer</a>
+        <a class="nav-link" data-route="releases" href="#/releases">Releases &amp; Methods</a>
+      </nav>
+
+      <div class="masthead-actions">
+        <label class="quick-find" aria-label="Jump to statistic">
+          <input id="quick-search" type="search" placeholder="Search (CPI, GDP, Oslo)..." autocomplete="off">
+        </label>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app-root" class="shell main-content" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <div class="footer-brand">NORDSTAT · Norway Public Statistical Compendium</div>
+        <p class="footer-note">
+          Independent offline reference portal presenting reconciled national accounts, consumer price indices, labour force surveys, demographic registries, and NUTS-2 regional profiles.
+        </p>
+      </div>
+      <div class="footer-meta">
+        <div><strong>Primary Sources:</strong> Statistics Norway (SSB StatBank), Norges Bank, Eurostat NUTS-2</div>
+        <div><strong>Standards:</strong> SNA 2008 · COICOP 2018 · ILO-AKU · IPCC AR5 GWP</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
