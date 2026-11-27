@@ -1,6 +1,8 @@
 import { RELEASE_CALENDAR, METHODOLOGY_NOTES } from '../data/tables.js';
+import { ensureSecondaryStyles } from './secondaryStyles.js';
 
 export function renderReleases(root) {
+  ensureSecondaryStyles();
   let activeDomain = 'All';
   root.innerHTML = '';
 

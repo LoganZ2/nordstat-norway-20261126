@@ -1,0 +1,45 @@
+export const EXTRA_SERIES = {
+  cpi: {
+    id: 'cpi', tab: 'CPI Inflation', shortTab: 'CPI',
+    headline: 'Headline inflation held at 3.1% in 2025, cooling sharply from 5.8% peak',
+    subtitle: 'Annual average Consumer Price Index change (COICOP 2018 · 2015=100)',
+    unit: '%', color: '#B4382B',
+    reference: { value: 2.0, label: 'Target 2%' },
+    source: 'Statistics Norway (SSB), CPI Table 14700 & Norges Bank · Jan 2026',
+    values: [3.5, 1.9, 2.8, 2.2, 1.3, 3.5, 5.8, 5.5, 3.1, 3.1],
+    notes: {
+      2020: 'Hydroelectric surplus pushed power prices to record lows',
+      2022: 'Peak 5.8% driven by European energy & food costs',
+      2024: 'Energy normalisation trimmed inflation by 2.4 pp',
+      2025: 'Housing rentals (31.2% weight) kept CPI above 2% target',
+    },
+  },
+  unemp: {
+    id: 'unemp', tab: 'Unemployment', shortTab: 'Jobs',
+    headline: 'Labour market cooled gradually to 4.6% AKU unemployment in 2025',
+    subtitle: 'Labour Force Survey (AKU) annual share of labour force aged 15–74',
+    unit: '%', color: '#A9641B',
+    reference: { value: 4.0, label: 'Avg 4.0%' },
+    source: 'Statistics Norway (SSB), Labour Force Survey Table 13760 · Q4 2025',
+    values: [4.7, 4.2, 3.8, 3.7, 4.4, 4.4, 3.2, 3.6, 4.0, 4.6],
+    notes: {
+      2016: 'Offshore oil downturn raised western-coast unemployment',
+      2022: 'Tightest post-2008 labour market at 3.2%',
+      2025: 'Rising labour participation & mild cyclical softening',
+    },
+  },
+  ghg: {
+    id: 'ghg', tab: 'GHG Emissions', shortTab: 'GHG',
+    headline: 'Territorial emissions fell 17.5% over the decade to 44.1 Mt CO₂e in 2025',
+    subtitle: 'Greenhouse gas emissions in Norway (Mt CO₂e, IPCC AR5 GWP)',
+    unit: ' Mt', color: '#1B6B5C',
+    reference: { value: 50.0, label: '50 Mt' },
+    source: 'Statistics Norway (SSB), Emissions Table 13931 · 2025 Preliminary',
+    values: [53.4, 52.7, 52.8, 51.1, 49.4, 49.2, 48.8, 46.6, 44.6, 44.1],
+    notes: {
+      2016: 'Decade high of 53.4 Mt across offshore, industry & transport',
+      2023: 'Platform electrification & 95%+ EV adoption cut 2.3 Mt YoY',
+      2025: 'Lowest annual territorial emissions in three decades',
+    },
+  },
+};

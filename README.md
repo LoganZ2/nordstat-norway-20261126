@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/LoganZ2/nordstat-norway-20261126/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 [![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/LoganZ2/nordstat-norway-20261126/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 
-An offline-first, zero-dependency interactive national statistics portal for the Kingdom of Norway, built with vanilla ES modules, bespoke SVG charts, an interactive NUTS-2 regional atlas, a Laspeyres personal inflation & real wage calculator, and verified 2016–2025 primary SSB / Norges Bank statistical tables.
+An offline-first, zero-dependency interactive national statistics portal for the Kingdom of Norway, built with vanilla ES modules, bespoke SVG charts, an interactive 15-county (`fylker`) choropleth atlas with county-vs-county comparison, a 2005–2025 age-sex population pyramid, a Laspeyres personal inflation & real wage calculator, a 1990–2025 NOK purchasing power converter, and verified primary SSB / Norges Bank / OFV statistical tables with offline CSV export.
 
 Built for [make.fun](https://make.fun/bounty/best-national-statistics-site-20261126-0539)'s **Make the best national statistics site** bounty (`best-national-statistics-site-20261126-0539`).
 
